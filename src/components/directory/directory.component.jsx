@@ -9,6 +9,7 @@ const Directory = ({ sections }) => {
   return (
     <div className="directory-menu">
       {sections.map(({ title, imageUrl, id, linkUrl, size }) => {
+        console.log(linkUrl);
         return (
           <MenuItem
             key={id}
